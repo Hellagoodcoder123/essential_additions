@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_block"
+    },
+    "1": {
+      "item": "essential_additions:gold_bars"
+    },
+    "2": {
+      "item": "minecraft:gold_block"
+    },
+    "3": {
+      "item": "essential_additions:assembly_3"
+    },
+    "4": {
+      "item": "minecraft:cobweb"
+    },
+    "5": {
+      "item": "essential_additions:assembly_3"
+    },
+    "6": {
+      "item": "minecraft:gold_block"
+    },
+    "7": {
+      "item": "essential_additions:gold_bars"
+    },
+    "8": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "essential_additions:assembly_4",
+    "count": 1
+  }
+}

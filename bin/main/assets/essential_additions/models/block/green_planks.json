@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "essential_additions:blocks/green_stained_planks",
+    "up": "essential_additions:blocks/green_stained_planks",
+    "north": "essential_additions:blocks/green_stained_planks",
+    "east": "essential_additions:blocks/green_stained_planks",
+    "south": "essential_additions:blocks/green_stained_planks",
+    "west": "essential_additions:blocks/green_stained_planks",
+    "particle": "essential_additions:blocks/green_stained_planks"
+  }
+}

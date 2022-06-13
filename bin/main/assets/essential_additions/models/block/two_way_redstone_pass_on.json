@@ -1,0 +1,8 @@
+{
+  "parent": "essential_additions:custom/flat_one_block",
+  "textures": {
+    "all": "essential_additions:blocks/two_way_redstone_pass_on",
+    "particle": "essential_additions:blocks/two_way_redstone_pass_on",
+    "1": "essential_additions:blocks/two_way_redstone_pass_on"
+  }
+}

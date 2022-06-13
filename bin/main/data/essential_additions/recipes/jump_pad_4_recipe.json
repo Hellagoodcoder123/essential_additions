@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "essential_additions:binding_agent"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "essential_additions:jump_pad_3"
+    },
+    "4": {
+      "item": "essential_additions:jump_pad_3"
+    },
+    "5": {
+      "item": "essential_additions:jump_pad_3"
+    },
+    "6": {
+      "item": "minecraft:slime_block"
+    },
+    "7": {
+      "item": "minecraft:piston"
+    },
+    "8": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "item": "essential_additions:jump_pad_4",
+    "count": 1
+  }
+}

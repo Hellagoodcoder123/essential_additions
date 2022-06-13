@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "essential_additions:blocks/gray_planks",
+    "up": "essential_additions:blocks/gray_planks",
+    "north": "essential_additions:blocks/gray_planks",
+    "east": "essential_additions:blocks/gray_planks",
+    "south": "essential_additions:blocks/gray_planks",
+    "west": "essential_additions:blocks/gray_planks",
+    "particle": "essential_additions:blocks/gray_planks"
+  }
+}

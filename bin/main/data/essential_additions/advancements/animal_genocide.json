@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": {
+      "translate": "advancements.animal_genocide.title"
+    },
+    "description": {
+      "translate": "advancements.animal_genocide.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "animal_genocide": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "essential_additions:essential_additions"
+}
