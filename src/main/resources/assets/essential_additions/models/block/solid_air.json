@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "essential_additions:blocks/solid_air",
+    "up": "essential_additions:blocks/solid_air",
+    "north": "essential_additions:blocks/solid_air",
+    "east": "essential_additions:blocks/solid_air",
+    "south": "essential_additions:blocks/solid_air",
+    "west": "essential_additions:blocks/solid_air",
+    "particle": "essential_additions:blocks/solid_air"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "astronaut_in_ocean": {
+    "category": "music",
+    "subtitle": "subtitles.astronaut_in_ocean",
+    "sounds": [
+      {
+        "name": "essential_additions:masked_wolf_-_astronaut_in_the_ocean",
+        "stream": true
+      }
+    ]
+  }
+}

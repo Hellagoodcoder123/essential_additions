@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:diamond_block"
+    },
+    "1": {
+      "item": "essential_additions:diamond_bars"
+    },
+    "2": {
+      "item": "minecraft:diamond_block"
+    },
+    "3": {
+      "item": "essential_additions:assembly_4"
+    },
+    "4": {
+      "item": "minecraft:cobweb"
+    },
+    "5": {
+      "item": "essential_additions:assembly_4"
+    },
+    "6": {
+      "item": "minecraft:diamond_block"
+    },
+    "7": {
+      "item": "essential_additions:diamond_bars"
+    },
+    "8": {
+      "item": "minecraft:diamond_block"
+    }
+  },
+  "result": {
+    "item": "essential_additions:assembly_5",
+    "count": 1
+  }
+}
