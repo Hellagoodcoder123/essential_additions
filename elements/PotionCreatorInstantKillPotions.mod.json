@@ -1,0 +1,104 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Instant Kill Potions",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Instant Kill Potions",
+          "x": 160,
+          "y": 41
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Normal",
+          "onClick": {
+            "name": "GiveInstantKillPotion"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Normal",
+          "x": 143,
+          "y": 76
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Types:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Types:",
+          "x": 195,
+          "y": 61
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Splash",
+          "onClick": {
+            "name": "GiveSplashInstantKillPotion"
+          },
+          "width": 56,
+          "height": 20,
+          "name": "Splash",
+          "x": 224,
+          "y": 76
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Lingering",
+          "onClick": {
+            "name": "GiveLingeringInstantKillPotion"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Lingering",
+          "x": 135,
+          "y": 104
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Arrow",
+          "onClick": {
+            "name": "GiveInstantKillArrow"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Arrow",
+          "x": 227,
+          "y": 104
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

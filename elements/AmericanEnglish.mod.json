@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "American English",
+    "description": "Should the language used for the mod be American or British English.",
+    "category": "CHAT",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

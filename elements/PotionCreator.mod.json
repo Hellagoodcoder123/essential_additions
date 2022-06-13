@@ -1,0 +1,63 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Potion Creator",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Potion Creator",
+          "x": 176,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Templates",
+          "onClick": {
+            "name": "OpenPotionCreatorTemplatesGUI"
+          },
+          "width": 72,
+          "height": 20,
+          "name": "Templates",
+          "x": 176,
+          "y": 90
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Make Your Own",
+          "onClick": {
+            "name": "OpenPotionCreatorCreatePotionGUI"
+          },
+          "width": 92,
+          "height": 20,
+          "name": "Make Your Own",
+          "x": 166,
+          "y": 126
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 151,
+    "height": 210,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "1",
+          "width": 120,
+          "height": 20,
+          "name": "param1",
+          "x": 152,
+          "y": 22
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "+",
+          "width": 120,
+          "height": 20,
+          "name": "operation",
+          "x": 152,
+          "y": 44
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "1",
+          "width": 120,
+          "height": 20,
+          "name": "param2",
+          "x": 152,
+          "y": 66
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "OUTPUT:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "OUTPUT:",
+          "x": 195,
+          "y": 157
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "2",
+          "width": 120,
+          "height": 20,
+          "name": "output",
+          "x": 152,
+          "y": 170
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

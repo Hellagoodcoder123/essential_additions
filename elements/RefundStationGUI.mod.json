@@ -1,0 +1,128 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 254,
+    "height": 205,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": -9,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #0",
+          "x": 203,
+          "y": 30
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 185,
+          "y": 30
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Refund",
+          "width": 56,
+          "height": 20,
+          "name": "Refund",
+          "x": 184,
+          "y": 198
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 221,
+          "y": 30
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": false,
+          "name": "Slot #3",
+          "x": 203,
+          "y": 88
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "To refund, items must be",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "To refund, items must be",
+          "x": 148,
+          "y": 57
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "made of the same material",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "made of the same material",
+          "x": 147,
+          "y": 67
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 17,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

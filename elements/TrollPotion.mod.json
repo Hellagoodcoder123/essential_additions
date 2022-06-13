@@ -1,0 +1,84 @@
+{
+  "_fv": 28,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Troll Potion",
+    "splashName": "Splash Troll Potion",
+    "lingeringName": "Lingering Troll Potion",
+    "arrowName": "Arrow of Trolling",
+    "effects": [
+      {
+        "effect": {
+          "value": "BLINDNESS"
+        },
+        "duration": 72000,
+        "amplifier": 255,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "NIGHT_VISION"
+        },
+        "duration": 72000,
+        "amplifier": 255,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "SLOWNESS"
+        },
+        "duration": 72000,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "MINING_FATIGUE"
+        },
+        "duration": 72000,
+        "amplifier": 255,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "NAUSEA"
+        },
+        "duration": 72000,
+        "amplifier": 255,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "WEAKNESS"
+        },
+        "duration": 72000,
+        "amplifier": 255,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "UNLUCK"
+        },
+        "duration": 72000,
+        "amplifier": 5,
+        "ambient": false,
+        "showParticles": false
+      },
+      {
+        "effect": {
+          "value": "BAD_OMEN"
+        },
+        "duration": 72000,
+        "amplifier": 255,
+        "ambient": false,
+        "showParticles": false
+      }
+    ]
+  }
+}

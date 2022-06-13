@@ -1,0 +1,8 @@
+{
+  "_fv": 28,
+  "_type": "command",
+  "definition": {
+    "commandName": "ench",
+    "permissionLevel": "2"
+  }
+}

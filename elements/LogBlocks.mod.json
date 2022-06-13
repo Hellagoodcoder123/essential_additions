@@ -1,0 +1,62 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:RedLog"
+      },
+      {
+        "value": "CUSTOM:OrangeLog"
+      },
+      {
+        "value": "CUSTOM:GreenLog"
+      },
+      {
+        "value": "CUSTOM:LimeLog"
+      },
+      {
+        "value": "CUSTOM:PinkLog"
+      },
+      {
+        "value": "CUSTOM:MagentaLog"
+      },
+      {
+        "value": "CUSTOM:PurpleLog"
+      },
+      {
+        "value": "CUSTOM:BlackLog"
+      },
+      {
+        "value": "CUSTOM:GrayLog"
+      },
+      {
+        "value": "CUSTOM:LightGrayLog"
+      },
+      {
+        "value": "CUSTOM:WhiteLog"
+      },
+      {
+        "value": "CUSTOM:BrownLog"
+      },
+      {
+        "value": "CUSTOM:BlueLog"
+      },
+      {
+        "value": "CUSTOM:LightBlueLog"
+      },
+      {
+        "value": "CUSTOM:CyanLog"
+      },
+      {
+        "value": "CUSTOM:YellowLog"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

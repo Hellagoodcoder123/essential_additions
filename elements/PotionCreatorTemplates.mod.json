@@ -1,0 +1,76 @@
+{
+  "_fv": 28,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Templates",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Templates",
+          "x": 188,
+          "y": 40
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Instant Kill",
+          "onClick": {
+            "name": "OpenPotionCreatorInstantKillPotionsGUI"
+          },
+          "width": 87,
+          "height": 20,
+          "name": "Instant Kill",
+          "x": 168,
+          "y": 79
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Troll",
+          "onClick": {
+            "name": "OpenPotionCreatorTrollPotionsGUI"
+          },
+          "width": 51,
+          "height": 20,
+          "name": "Troll",
+          "x": 186,
+          "y": 120
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "*There will be more soon",
+          "color": {
+            "value": -6750208,
+            "falpha": 0.0
+          },
+          "name": "*There will be more soon",
+          "x": 150,
+          "y": 166
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

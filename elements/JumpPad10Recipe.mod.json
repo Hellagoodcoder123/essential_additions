@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:BindingAgent2"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:JumpPad9"
+      },
+      {
+        "value": "CUSTOM:JumpPad9"
+      },
+      {
+        "value": "CUSTOM:JumpPad9"
+      },
+      {
+        "value": "Blocks.SLIME_BLOCK"
+      },
+      {
+        "value": "Blocks.PISTON"
+      },
+      {
+        "value": "Blocks.SLIME_BLOCK"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:JumpPad10"
+    },
+    "name": "jump_pad_10_recipe",
+    "namespace": "mod"
+  }
+}

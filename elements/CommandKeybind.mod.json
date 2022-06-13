@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "NUMPAD0",
+    "keyBindingName": "Command Keybind",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "CommandKeybindOnKeyPressed"
+    }
+  }
+}
