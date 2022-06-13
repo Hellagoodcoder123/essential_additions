@@ -1,0 +1,16 @@
+{
+  "parent": "essential_additions:custom/cauldron_model",
+  "textures": {
+  	"all": "essential_additions:blocks/cauldron_dummy",
+    "particle": "essential_additions:blocks/cauldron_dummy",
+    "wall1": "essential_additions:blocks/cauldron_dummy",
+    "wall2": "essential_additions:blocks/cauldron_dummy",
+    "wall3": "essential_additions:blocks/cauldron_dummy",
+    "wall4": "essential_additions:blocks/cauldron_dummy",
+    "leg1": "essential_additions:blocks/cauldron_dummy",
+    "leg2": "essential_additions:blocks/cauldron_dummy",
+    "leg3": "essential_additions:blocks/cauldron_dummy",
+    "leg4": "essential_additions:blocks/cauldron_dummy",
+    "floor": "essential_additions:blocks/cauldron_dummy"
+  }
+}

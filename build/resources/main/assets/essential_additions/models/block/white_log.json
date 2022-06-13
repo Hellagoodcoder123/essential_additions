@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "essential_additions:blocks/white_log_top",
+    "up": "essential_additions:blocks/white_log_top",
+    "north": "essential_additions:blocks/white_log_side",
+    "east": "essential_additions:blocks/white_log_side",
+    "south": "essential_additions:blocks/white_log_side",
+    "west": "essential_additions:blocks/white_log_side",
+    "particle": "essential_additions:blocks/white_log_top"
+  }
+}

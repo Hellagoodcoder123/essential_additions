@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=true": {
+      "model": "essential_additions:block/two_way_redstone_pass"
+    },
+    "powered=false": {
+      "model": "essential_additions:block/two_way_redstone_pass_on"
+    }
+  }
+}

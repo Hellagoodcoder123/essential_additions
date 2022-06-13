@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "tag": "logs"
+    },
+    "1": {
+      "tag": "logs"
+    },
+    "2": {
+      "tag": "logs"
+    },
+    "3": {
+      "tag": "logs"
+    },
+    "4": {
+      "tag": "logs"
+    },
+    "5": {
+      "tag": "logs"
+    }
+  },
+  "result": {
+    "item": "essential_additions:wooden_bars",
+    "count": 16
+  }
+}

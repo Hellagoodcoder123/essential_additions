@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "essential_additions:red_planks"
+    },
+    {
+      "item": "essential_additions:yellow_planks"
+    }
+  ],
+  "result": {
+    "item": "essential_additions:orange_planks",
+    "count": 2
+  }
+}

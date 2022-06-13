@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:smooth_stone"
+    },
+    "1": {
+      "item": "minecraft:stone"
+    },
+    "2": {
+      "item": "minecraft:smooth_stone"
+    },
+    "3": {
+      "item": "essential_additions:assembly_1"
+    },
+    "4": {
+      "item": "minecraft:cobweb"
+    },
+    "5": {
+      "item": "essential_additions:assembly_1"
+    },
+    "6": {
+      "item": "minecraft:smooth_stone"
+    },
+    "7": {
+      "item": "minecraft:stone"
+    },
+    "8": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "essential_additions:assembly_2",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "essential_additions:blocks/refund_station_bottom",
+    "up": "essential_additions:blocks/refund_station_off_top",
+    "north": "essential_additions:blocks/refund_station_side",
+    "east": "essential_additions:blocks/refund_station_side",
+    "south": "essential_additions:blocks/refund_station_side",
+    "west": "essential_additions:blocks/refund_station_side",
+    "particle": "essential_additions:blocks/refund_station_bottom"
+  }
+}

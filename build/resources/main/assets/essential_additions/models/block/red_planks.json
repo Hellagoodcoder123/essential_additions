@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "essential_additions:blocks/red_planks",
+    "up": "essential_additions:blocks/red_planks",
+    "north": "essential_additions:blocks/red_planks",
+    "east": "essential_additions:blocks/red_planks",
+    "south": "essential_additions:blocks/red_planks",
+    "west": "essential_additions:blocks/red_planks",
+    "particle": "essential_additions:blocks/red_planks"
+  }
+}

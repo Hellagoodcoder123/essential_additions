@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "essential_additions:purple_log",
+    "essential_additions:cyan_log",
+    "essential_additions:light_gray_log",
+    "essential_additions:brown_log",
+    "essential_additions:yellow_log",
+    "essential_additions:white_log",
+    "essential_additions:red_log",
+    "essential_additions:lime_log",
+    "essential_additions:orange_log",
+    "essential_additions:magenta_log",
+    "essential_additions:black_log",
+    "essential_additions:pink_log",
+    "essential_additions:light_blue_log",
+    "essential_additions:blue_log",
+    "essential_additions:green_log",
+    "essential_additions:gray_log"
+  ]
+}

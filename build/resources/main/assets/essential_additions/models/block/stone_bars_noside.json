@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_glass_pane_noside",
+  "textures": {
+    "pane": "essential_additions:blocks/stone_bars"
+  }
+}
