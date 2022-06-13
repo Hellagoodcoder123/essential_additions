@@ -1,0 +1,18 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "left_wall",
+        "1": "back_wall",
+        "2": "right_wall",
+        "3": "front_wall",
+        "4": "floor",
+        "5": "leg1",
+        "6": "leg2",
+        "7": "leg3",
+        "8": "leg4"
+      },
+      "name": "default"
+    }
+  }
+}

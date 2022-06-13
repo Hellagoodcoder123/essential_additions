@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "two_way_redstone_pass_off"
+      },
+      "name": "default"
+    }
+  }
+}
