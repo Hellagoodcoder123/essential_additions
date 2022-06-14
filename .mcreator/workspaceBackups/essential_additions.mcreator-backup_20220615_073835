@@ -76,15 +76,6 @@
       "path": "~/GUIs/Refund Station"
     },
     {
-      "name": "RefundStation",
-      "type": "block",
-      "sortid": 5,
-      "compiles": true,
-      "locked_code": true,
-      "registry_name": "refund_station",
-      "path": "~/Blocks/Block Entities"
-    },
-    {
       "name": "RefundStationBlockDestroyedByExplosion",
       "type": "procedure",
       "sortid": 14,
@@ -4220,6 +4211,78 @@
       "locked_code": false,
       "registry_name": "bloodwood_stick_recipe",
       "path": "~/Blocks/The Bloodlands"
+    },
+    {
+      "name": "TheBloodlands",
+      "type": "biome",
+      "sortid": 323,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_bloodlands",
+      "path": "~/Entities/The Bloodlands"
+    },
+    {
+      "name": "NetherIronOre",
+      "type": "block",
+      "sortid": 345,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_iron_ore",
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "NetherDiamondOre",
+      "type": "block",
+      "sortid": 346,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_diamond_ore",
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "NetherCopperOre",
+      "type": "block",
+      "sortid": 347,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherrack_copper_ore",
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "NetherCopperOreLoot",
+      "type": "loottable",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nether_copper_ore_loot",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "BlackstoneCopperOre",
+      "type": "block",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackstone_copper_ore",
+      "path": "~/Blocks/Ores"
+    },
+    {
+      "name": "EnderDragon",
+      "type": "loottable",
+      "sortid": 350,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ender_dragon",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "OPLootChest",
+      "type": "loottable",
+      "sortid": 351,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "op_loot_chest",
+      "path": "~/Loot Tables"
     }
   ],
   "variable_elements": [
@@ -4370,6 +4433,7 @@
     "en_us": {
       "block.essential_additions.brown_planks": "Brown Stained Planks",
       "block.essential_additions.lime_log": "Lime Stained Log",
+      "block.essential_additions.nether_diamond_ore": "Nether Iron Ore",
       "block.essential_additions.jump_pad_3": "Jump Pad MK.3",
       "block.essential_additions.jump_pad_2": "Jump Pad MK.2",
       "advancements.animal_genocide_3.descr": "Have had 100,000 animals killed by players for the world",
@@ -4387,6 +4451,7 @@
       "block.essential_additions.cyan_log": "Cyan Stained Log",
       "block.essential_additions.red_log": "Red Stained Log",
       "advancements.animal_genocide_2.title": "Animal Genocide 2",
+      "block.essential_additions.netherrack_copper_ore": "Netherrack Copper Ore",
       "block.essential_additions.jump_pad_9": "Jump Pad MK.9",
       "block.essential_additions.magenta_log": "Magenta Stained Log",
       "block.essential_additions.pink_planks": "Pink Stained Planks",
@@ -4414,7 +4479,6 @@
       "item.essential_additions.astronaut_helmet": "Astronaut Helmet",
       "item.essential_additions.assembly_5": "T5 Assembly",
       "item.essential_additions.assembly_4": "T4 Assembly",
-      "block.essential_additions.refund_station": "Refund Station",
       "block.essential_additions.dark_green_planks": "Green Stained Planks",
       "block.essential_additions.bloodwood_slab": "Bloodwood Slab",
       "advancements.essential_additions.title": "Essential Additions",
@@ -4456,7 +4520,10 @@
       "advancements.animal_genocide_4.descr": "Have had 1,000,000 animals killed by players for the world",
       "advancements.essential_additions.descr": "Welcome to the Essential Additions mod!",
       "item.essential_additions.bomb_spawn_egg": "Bomb Spawn Egg",
+      "block.essential_additions.nether_iron_ore": "Nether Iron Ore",
       "block.essential_additions.green_planks": "Lime Stained Planks",
+      "biome.essential_additions.the_bloodlands": "The Bloodlands",
+      "block.essential_additions.blackstone_copper_ore": "Netherrack Copper Ore",
       "block.essential_additions.gold_bars": "Gold Bars",
       "block.essential_additions.jump_pad_15": "Jump Pad MK.15",
       "block.essential_additions.jump_pad_13": "Jump Pad MK.13",
@@ -4477,6 +4544,7 @@
     "en_au": {
       "block.essential_additions.brown_planks": "Cyan Stained Planks",
       "block.essential_additions.lime_log": "Green Stained Log",
+      "block.essential_additions.nether_diamond_ore": "Nether Iron Ore",
       "block.essential_additions.jump_pad_3": "Jump Pad MK.3",
       "block.essential_additions.jump_pad_2": "Jump Pad MK.2",
       "advancements.animal_genocide_3.descr": "Have had 10,000 animals killed by players for the world",
@@ -4494,6 +4562,7 @@
       "block.essential_additions.cyan_log": "White Stained Log",
       "block.essential_additions.red_log": "Red Stained Log",
       "advancements.animal_genocide_2.title": "Animal Genocide 2",
+      "block.essential_additions.netherrack_copper_ore": "Netherrack Copper Ore",
       "block.essential_additions.jump_pad_9": "Jump Pad MK.8",
       "block.essential_additions.magenta_log": "Green Stained Log",
       "block.essential_additions.pink_planks": "Light Gray Stained Planks",
@@ -4521,7 +4590,6 @@
       "item.essential_additions.astronaut_helmet": "Astronaut Helmet",
       "item.essential_additions.assembly_5": "T4 Assembly",
       "item.essential_additions.assembly_4": "T3 Assembly",
-      "block.essential_additions.refund_station": "Refund Station",
       "block.essential_additions.dark_green_planks": "Green Stained Planks",
       "block.essential_additions.bloodwood_slab": "Bloodwood Slab",
       "advancements.essential_additions.title": "Essential Additions",
@@ -4563,7 +4631,10 @@
       "advancements.animal_genocide_4.descr": "Have had 100,000 animals killed by players for the world",
       "advancements.essential_additions.descr": "Welcome to the Essential Additions mod!",
       "item.essential_additions.bomb_spawn_egg": "Bomb Spawn Egg",
+      "block.essential_additions.nether_iron_ore": "Nether Iron Ore",
       "block.essential_additions.green_planks": "Orange Stained Planks",
+      "biome.essential_additions.the_bloodlands": "The Bloodlands",
+      "block.essential_additions.blackstone_copper_ore": "Netherrack Copper Ore",
       "block.essential_additions.gold_bars": "Gold Bars",
       "block.essential_additions.jump_pad_15": "Jump Pad MK.14",
       "block.essential_additions.jump_pad_13": "Jump Pad MK.12",
@@ -4704,6 +4775,10 @@
           },
           {
             "name": "The Bloodlands",
+            "children": []
+          },
+          {
+            "name": "Ores",
             "children": []
           }
         ]
@@ -4920,13 +4995,17 @@
       {
         "name": "Biomes",
         "children": []
+      },
+      {
+        "name": "Loot Tables",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "essential_additions",
     "modName": "Essential Additions",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "ethan, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
@@ -4937,6 +5016,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.essentialadditions",
     "lockBaseModFiles": false
   },
