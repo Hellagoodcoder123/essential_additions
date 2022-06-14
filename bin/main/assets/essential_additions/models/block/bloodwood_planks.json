@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "essential_additions:blocks/bloodwood_planks",
+    "particle": "essential_additions:blocks/bloodwood_planks"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "essential_additions:bloodwood_log"
+    },
+    "1": {
+      "item": "essential_additions:bloodwood_log"
+    },
+    "2": {
+      "item": "essential_additions:bloodwood_log"
+    },
+    "3": {
+      "item": "essential_additions:bloodwood_log"
+    }
+  },
+  "result": {
+    "item": "essential_additions:bloodwood_wood",
+    "count": 3
+  }
+}

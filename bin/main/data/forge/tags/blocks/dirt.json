@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "essential_additions:blood_grass",
+    "essential_additions:blood_dirt"
+  ]
 }
