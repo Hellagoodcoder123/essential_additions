@@ -22,7 +22,6 @@ import net.mcreator.essentialadditions.block.WhiteLogBlock;
 import net.mcreator.essentialadditions.block.TwoWayRedstonePassBlock;
 import net.mcreator.essentialadditions.block.StoneBarsBlock;
 import net.mcreator.essentialadditions.block.SolidAirBlock;
-import net.mcreator.essentialadditions.block.RefundStationBlock;
 import net.mcreator.essentialadditions.block.RedPlanksBlock;
 import net.mcreator.essentialadditions.block.RedLogBlock;
 import net.mcreator.essentialadditions.block.PurplePlanksBlock;
@@ -31,6 +30,9 @@ import net.mcreator.essentialadditions.block.PinkPlanksBlock;
 import net.mcreator.essentialadditions.block.PinkLogBlock;
 import net.mcreator.essentialadditions.block.OrangePlanksBlock;
 import net.mcreator.essentialadditions.block.OrangeLogBlock;
+import net.mcreator.essentialadditions.block.NetherIronOreBlock;
+import net.mcreator.essentialadditions.block.NetherDiamondOreBlock;
+import net.mcreator.essentialadditions.block.NetherCopperOreBlock;
 import net.mcreator.essentialadditions.block.MagentaPlanksBlock;
 import net.mcreator.essentialadditions.block.MagentaLogBlock;
 import net.mcreator.essentialadditions.block.LimeLogBlock;
@@ -67,13 +69,25 @@ import net.mcreator.essentialadditions.block.BrownPlanksBlock;
 import net.mcreator.essentialadditions.block.BrownLogBlock;
 import net.mcreator.essentialadditions.block.BluePlanksBlock;
 import net.mcreator.essentialadditions.block.BlueLogBlock;
+import net.mcreator.essentialadditions.block.BloodwoodWoodBlock;
+import net.mcreator.essentialadditions.block.BloodwoodStairsBlock;
+import net.mcreator.essentialadditions.block.BloodwoodSlabBlock;
+import net.mcreator.essentialadditions.block.BloodwoodPressurePlateBlock;
+import net.mcreator.essentialadditions.block.BloodwoodPlanksBlock;
+import net.mcreator.essentialadditions.block.BloodwoodLogBlock;
+import net.mcreator.essentialadditions.block.BloodwoodLeavesBlock;
+import net.mcreator.essentialadditions.block.BloodwoodFenceGateBlock;
+import net.mcreator.essentialadditions.block.BloodwoodFenceBlock;
+import net.mcreator.essentialadditions.block.BloodwoodButtonBlock;
+import net.mcreator.essentialadditions.block.BloodGrassBlock;
+import net.mcreator.essentialadditions.block.BloodDirtBlock;
+import net.mcreator.essentialadditions.block.BlackstoneCopperOreBlock;
 import net.mcreator.essentialadditions.block.BlackPlanksBlock;
 import net.mcreator.essentialadditions.block.BlackLogBlock;
 import net.mcreator.essentialadditions.EssentialAdditionsMod;
 
 public class EssentialAdditionsModBlocks {
 	public static final DeferredRegister<Block> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCKS, EssentialAdditionsMod.MODID);
-	public static final RegistryObject<Block> REFUND_STATION = REGISTRY.register("refund_station", () -> new RefundStationBlock());
 	public static final RegistryObject<Block> RED_PLANKS = REGISTRY.register("red_planks", () -> new RedPlanksBlock());
 	public static final RegistryObject<Block> JUMP_PAD_1 = REGISTRY.register("jump_pad_1", () -> new JumpPad1Block());
 	public static final RegistryObject<Block> JUMP_PAD_2 = REGISTRY.register("jump_pad_2", () -> new JumpPad2Block());
@@ -128,6 +142,24 @@ public class EssentialAdditionsModBlocks {
 	public static final RegistryObject<Block> CAULDRON_DUMMY = REGISTRY.register("cauldron_dummy", () -> new CauldronDummyBlock());
 	public static final RegistryObject<Block> TWO_WAY_REDSTONE_PASS = REGISTRY.register("two_way_redstone_pass", () -> new TwoWayRedstonePassBlock());
 	public static final RegistryObject<Block> SOLID_AIR = REGISTRY.register("solid_air", () -> new SolidAirBlock());
+	public static final RegistryObject<Block> BLOOD_DIRT = REGISTRY.register("blood_dirt", () -> new BloodDirtBlock());
+	public static final RegistryObject<Block> BLOOD_GRASS = REGISTRY.register("blood_grass", () -> new BloodGrassBlock());
+	public static final RegistryObject<Block> BLOODWOOD_WOOD = REGISTRY.register("bloodwood_wood", () -> new BloodwoodWoodBlock());
+	public static final RegistryObject<Block> BLOODWOOD_LOG = REGISTRY.register("bloodwood_log", () -> new BloodwoodLogBlock());
+	public static final RegistryObject<Block> BLOODWOOD_PLANKS = REGISTRY.register("bloodwood_planks", () -> new BloodwoodPlanksBlock());
+	public static final RegistryObject<Block> BLOODWOOD_LEAVES = REGISTRY.register("bloodwood_leaves", () -> new BloodwoodLeavesBlock());
+	public static final RegistryObject<Block> BLOODWOOD_STAIRS = REGISTRY.register("bloodwood_stairs", () -> new BloodwoodStairsBlock());
+	public static final RegistryObject<Block> BLOODWOOD_SLAB = REGISTRY.register("bloodwood_slab", () -> new BloodwoodSlabBlock());
+	public static final RegistryObject<Block> BLOODWOOD_FENCE = REGISTRY.register("bloodwood_fence", () -> new BloodwoodFenceBlock());
+	public static final RegistryObject<Block> BLOODWOOD_FENCE_GATE = REGISTRY.register("bloodwood_fence_gate", () -> new BloodwoodFenceGateBlock());
+	public static final RegistryObject<Block> BLOODWOOD_PRESSURE_PLATE = REGISTRY.register("bloodwood_pressure_plate",
+			() -> new BloodwoodPressurePlateBlock());
+	public static final RegistryObject<Block> BLOODWOOD_BUTTON = REGISTRY.register("bloodwood_button", () -> new BloodwoodButtonBlock());
+	public static final RegistryObject<Block> NETHER_IRON_ORE = REGISTRY.register("nether_iron_ore", () -> new NetherIronOreBlock());
+	public static final RegistryObject<Block> NETHER_DIAMOND_ORE = REGISTRY.register("nether_diamond_ore", () -> new NetherDiamondOreBlock());
+	public static final RegistryObject<Block> NETHERRACK_COPPER_ORE = REGISTRY.register("netherrack_copper_ore", () -> new NetherCopperOreBlock());
+	public static final RegistryObject<Block> BLACKSTONE_COPPER_ORE = REGISTRY.register("blackstone_copper_ore",
+			() -> new BlackstoneCopperOreBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

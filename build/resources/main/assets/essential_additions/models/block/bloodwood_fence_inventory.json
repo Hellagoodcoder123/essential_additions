@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "essential_additions:blocks/bloodwood_planks",
+    "particle": "essential_additions:blocks/bloodwood_planks"
+  }
+}

@@ -19,8 +19,12 @@ import net.minecraft.core.Holder;
 
 import net.mcreator.essentialadditions.world.features.ores.WoodenBarsFeature;
 import net.mcreator.essentialadditions.world.features.ores.StoneBarsFeature;
+import net.mcreator.essentialadditions.world.features.ores.NetherIronOreFeature;
+import net.mcreator.essentialadditions.world.features.ores.NetherDiamondOreFeature;
+import net.mcreator.essentialadditions.world.features.ores.NetherCopperOreFeature;
 import net.mcreator.essentialadditions.world.features.ores.GoldBarsFeature;
 import net.mcreator.essentialadditions.world.features.ores.DiamondBarsFeature;
+import net.mcreator.essentialadditions.world.features.ores.BlackstoneCopperOreFeature;
 import net.mcreator.essentialadditions.EssentialAdditionsMod;
 
 import java.util.function.Supplier;
@@ -40,6 +44,18 @@ public class EssentialAdditionsModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, StoneBarsFeature.GENERATE_BIOMES, StoneBarsFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> WOODEN_BARS = register("wooden_bars", WoodenBarsFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, WoodenBarsFeature.GENERATE_BIOMES, WoodenBarsFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> NETHER_IRON_ORE = register("nether_iron_ore", NetherIronOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, NetherIronOreFeature.GENERATE_BIOMES,
+					NetherIronOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> NETHER_DIAMOND_ORE = register("nether_diamond_ore", NetherDiamondOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, NetherDiamondOreFeature.GENERATE_BIOMES,
+					NetherDiamondOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> NETHERRACK_COPPER_ORE = register("netherrack_copper_ore", NetherCopperOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, NetherCopperOreFeature.GENERATE_BIOMES,
+					NetherCopperOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> BLACKSTONE_COPPER_ORE = register("blackstone_copper_ore", BlackstoneCopperOreFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, BlackstoneCopperOreFeature.GENERATE_BIOMES,
+					BlackstoneCopperOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "essential_additions:bloodwood_planks"
+    },
+    "3": {
+      "item": "essential_additions:bloodwood_planks"
+    },
+    "4": {
+      "item": "essential_additions:bloodwood_planks"
+    },
+    "6": {
+      "item": "essential_additions:bloodwood_planks"
+    },
+    "7": {
+      "item": "essential_additions:bloodwood_planks"
+    },
+    "8": {
+      "item": "essential_additions:bloodwood_planks"
+    }
+  },
+  "result": {
+    "item": "essential_additions:bloodwood_stairs",
+    "count": 4
+  }
+}

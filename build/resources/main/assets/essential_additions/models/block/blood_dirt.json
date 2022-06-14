@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "essential_additions:blocks/blood_dirt_main",
+    "up": "essential_additions:blocks/blood_dirt_main",
+    "north": "essential_additions:blocks/blood_dirt_main",
+    "east": "essential_additions:blocks/blood_dirt_main",
+    "south": "essential_additions:blocks/blood_dirt_main",
+    "west": "essential_additions:blocks/blood_dirt_main",
+    "particle": "essential_additions:blocks/blood_dirt_main"
+  }
+}

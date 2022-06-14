@@ -12,14 +12,11 @@ import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.essentialadditions.block.entity.TwoWayRedstonePassBlockEntity;
-import net.mcreator.essentialadditions.block.entity.RefundStationBlockEntity;
 import net.mcreator.essentialadditions.EssentialAdditionsMod;
 
 public class EssentialAdditionsModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES,
 			EssentialAdditionsMod.MODID);
-	public static final RegistryObject<BlockEntityType<?>> REFUND_STATION = register("refund_station", EssentialAdditionsModBlocks.REFUND_STATION,
-			RefundStationBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> TWO_WAY_REDSTONE_PASS = register("two_way_redstone_pass",
 			EssentialAdditionsModBlocks.TWO_WAY_REDSTONE_PASS, TwoWayRedstonePassBlockEntity::new);
 

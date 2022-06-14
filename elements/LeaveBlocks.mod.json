@@ -4,7 +4,11 @@
   "definition": {
     "type": "Blocks",
     "items": [],
-    "blocks": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BloodwoodLeaves"
+      }
+    ],
     "functions": [],
     "entities": [],
     "name": "leaves",

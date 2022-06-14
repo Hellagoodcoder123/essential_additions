@@ -104,7 +104,7 @@
     "onRightClickedOn": {
       "name": "BombRightClickedOnEntity"
     },
-    "hasAI": true,
+    "hasAI": false,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"swim_in_water\"><field name=\"condition\">null,null</field></block></next></block></xml>",
     "breedable": false,
@@ -116,7 +116,7 @@
     },
     "rangedItemType": "Default item",
     "spawnThisMob": false,
-    "doesDespawnWhenIdle": true,
+    "doesDespawnWhenIdle": false,
     "spawningProbability": 1,
     "mobSpawningType": "misc",
     "minNumberOfMobsPerGroup": 1,

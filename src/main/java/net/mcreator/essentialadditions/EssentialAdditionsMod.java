@@ -32,6 +32,7 @@ import net.mcreator.essentialadditions.init.EssentialAdditionsModFeatures;
 import net.mcreator.essentialadditions.init.EssentialAdditionsModEntities;
 import net.mcreator.essentialadditions.init.EssentialAdditionsModBlocks;
 import net.mcreator.essentialadditions.init.EssentialAdditionsModBlockEntities;
+import net.mcreator.essentialadditions.init.EssentialAdditionsModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -56,6 +57,7 @@ public class EssentialAdditionsMod {
 		EssentialAdditionsModFeatures.REGISTRY.register(bus);
 
 		EssentialAdditionsModPotions.REGISTRY.register(bus);
+		EssentialAdditionsModBiomes.REGISTRY.register(bus);
 
 	}
 

@@ -27,7 +27,6 @@ import net.mcreator.essentialadditions.EssentialAdditionsMod;
 
 public class EssentialAdditionsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, EssentialAdditionsMod.MODID);
-	public static final RegistryObject<Item> REFUND_STATION = block(EssentialAdditionsModBlocks.REFUND_STATION, CreativeModeTab.TAB_REDSTONE);
 	public static final RegistryObject<Item> RED_PLANKS = block(EssentialAdditionsModBlocks.RED_PLANKS, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> JUMP_PAD_1 = block(EssentialAdditionsModBlocks.JUMP_PAD_1, CreativeModeTab.TAB_TRANSPORTATION);
 	public static final RegistryObject<Item> JUMP_PAD_2 = block(EssentialAdditionsModBlocks.JUMP_PAD_2, CreativeModeTab.TAB_TRANSPORTATION);
@@ -101,6 +100,31 @@ public class EssentialAdditionsModItems {
 	public static final RegistryObject<Item> TWO_WAY_REDSTONE_PASS = block(EssentialAdditionsModBlocks.TWO_WAY_REDSTONE_PASS,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> SOLID_AIR = block(EssentialAdditionsModBlocks.SOLID_AIR, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLOOD_DIRT = block(EssentialAdditionsModBlocks.BLOOD_DIRT, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLOOD_GRASS = block(EssentialAdditionsModBlocks.BLOOD_GRASS, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLOODWOOD_WOOD = block(EssentialAdditionsModBlocks.BLOODWOOD_WOOD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLOODWOOD_LOG = block(EssentialAdditionsModBlocks.BLOODWOOD_LOG, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLOODWOOD_PLANKS = block(EssentialAdditionsModBlocks.BLOODWOOD_PLANKS,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLOODWOOD_LEAVES = block(EssentialAdditionsModBlocks.BLOODWOOD_LEAVES, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BLOODWOOD_STAIRS = block(EssentialAdditionsModBlocks.BLOODWOOD_STAIRS,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLOODWOOD_SLAB = block(EssentialAdditionsModBlocks.BLOODWOOD_SLAB, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLOODWOOD_FENCE = block(EssentialAdditionsModBlocks.BLOODWOOD_FENCE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BLOODWOOD_FENCE_GATE = block(EssentialAdditionsModBlocks.BLOODWOOD_FENCE_GATE,
+			CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> BLOODWOOD_PRESSURE_PLATE = block(EssentialAdditionsModBlocks.BLOODWOOD_PRESSURE_PLATE,
+			CreativeModeTab.TAB_REDSTONE);
+	public static final RegistryObject<Item> BLOODWOOD_BUTTON = block(EssentialAdditionsModBlocks.BLOODWOOD_BUTTON,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> NETHER_IRON_ORE = block(EssentialAdditionsModBlocks.NETHER_IRON_ORE,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> NETHER_DIAMOND_ORE = block(EssentialAdditionsModBlocks.NETHER_DIAMOND_ORE,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> NETHERRACK_COPPER_ORE = block(EssentialAdditionsModBlocks.NETHERRACK_COPPER_ORE,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> BLACKSTONE_COPPER_ORE = block(EssentialAdditionsModBlocks.BLACKSTONE_COPPER_ORE,
+			CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -4,7 +4,14 @@
   "definition": {
     "type": "Blocks",
     "items": [],
-    "blocks": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:BloodGrass"
+      },
+      {
+        "value": "CUSTOM:BloodDirt"
+      }
+    ],
     "functions": [],
     "entities": [],
     "name": "dirt",

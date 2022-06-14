@@ -1,13 +1,15 @@
+
 package net.mcreator.essentialadditions.entity;
+
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
+
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.ThrownPotion;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.PathfinderMob;
@@ -23,39 +25,48 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.particles.ParticleTypes;
+
 import net.mcreator.essentialadditions.procedures.BombRightClickedOnEntityProcedure;
 import net.mcreator.essentialadditions.procedures.BombEntityDiesProcedure;
 import net.mcreator.essentialadditions.init.EssentialAdditionsModEntities;
+
 public class BombEntity extends PathfinderMob {
 	public BombEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(EssentialAdditionsModEntities.BOMB.get(), world);
 	}
+
 	public BombEntity(EntityType<BombEntity> type, Level world) {
 		super(type, world);
 		xpReward = 0;
-		setNoAi(false);
+		setNoAi(true);
+		setPersistenceRequired();
 	}
+
 	@Override
 	public Packet<?> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
 	}
-	@Override
-	protected void registerGoals() {
-		super.registerGoals();
-		this.goalSelector.addGoal(1, new FloatGoal(this));
-	}
+
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
 	}
+
+	@Override
+	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
+		return false;
+	}
+
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
 	}
+
 	@Override
 	public SoundEvent getDeathSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.explode"));
 	}
+
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
 		if (source.getDirectEntity() instanceof AbstractArrow)
@@ -82,11 +93,13 @@ public class BombEntity extends PathfinderMob {
 			return false;
 		return super.hurt(source, amount);
 	}
+
 	@Override
 	public void die(DamageSource source) {
 		super.die(source);
 		BombEntityDiesProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
 	}
+
 	@Override
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
@@ -101,6 +114,7 @@ public class BombEntity extends PathfinderMob {
 		BombRightClickedOnEntityProcedure.execute(world, x, y, z, entity);
 		return retval;
 	}
+
 	public void aiStep() {
 		super.aiStep();
 		double x = this.getX();
@@ -115,9 +129,10 @@ public class BombEntity extends PathfinderMob {
 			world.addParticle(ParticleTypes.FLAME, x0, y0, z0, 0, 0, 0);
 		}
 	}
+
 	public static void init() {
-		//not required
 	}
+
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0);

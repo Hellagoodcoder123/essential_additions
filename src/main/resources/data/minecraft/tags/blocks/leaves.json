@@ -1,4 +1,6 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "essential_additions:bloodwood_leaves"
+  ]
 }

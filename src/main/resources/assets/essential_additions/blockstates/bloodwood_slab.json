@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "essential_additions:block/bloodwood_slab"
+    },
+    "type=top": {
+      "model": "essential_additions:block/bloodwood_slab_top"
+    },
+    "type=double": {
+      "model": "essential_additions:block/bloodwood_slab_full"
+    }
+  }
+}

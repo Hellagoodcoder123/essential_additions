@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BloodwoodLog"
+      },
+      {
+        "value": "CUSTOM:BloodwoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BloodwoodLog"
+      },
+      {
+        "value": "CUSTOM:BloodwoodLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BloodwoodWood"
+    },
+    "name": "bloodwood_wood_recipe",
+    "namespace": "mod"
+  }
+}

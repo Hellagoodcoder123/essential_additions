@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "essential_additions:blocks/nether_diamond_ore",
+    "up": "essential_additions:blocks/nether_diamond_ore",
+    "north": "essential_additions:blocks/nether_diamond_ore",
+    "east": "essential_additions:blocks/nether_diamond_ore",
+    "south": "essential_additions:blocks/nether_diamond_ore",
+    "west": "essential_additions:blocks/nether_diamond_ore",
+    "particle": "essential_additions:blocks/nether_diamond_ore"
+  }
+}

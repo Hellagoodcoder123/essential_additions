@@ -52,6 +52,9 @@
       },
       {
         "value": "CUSTOM:YellowLog"
+      },
+      {
+        "value": "CUSTOM:BloodwoodLog"
       }
     ],
     "functions": [],

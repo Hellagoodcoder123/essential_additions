@@ -1,3 +1,4 @@
+
 package net.mcreator.essentialadditions.block;
 
 import net.minecraft.world.level.storage.loot.LootContext;
