@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "EA - The Crystal Caves",
+    "icon": {
+      "value": "Blocks.AMETHYST_CLUSTER"
+    },
+    "showSearch": false
+  }
+}

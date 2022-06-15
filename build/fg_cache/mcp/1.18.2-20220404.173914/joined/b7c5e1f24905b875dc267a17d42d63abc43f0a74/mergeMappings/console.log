@@ -1,0 +1,16 @@
+JVM:         C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "C:\Users\ethan\MCreatorWorkspaces\essential_additions\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\downloadClientMappings\client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "C:\Users\ethan\MCreatorWorkspaces\essential_additions\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\mergeMappings\output.jar"
+Classpath:   C:\Users\ethan\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.0\installertools-1.2.0-fatjar.jar
+Working Dir: C:\Users\ethan\MCreatorWorkspaces\essential_additions\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config\joined.tsrg
+         null
+Right:   C:\Users\ethan\MCreatorWorkspaces\essential_additions\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\downloadClientMappings\client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  C:\Users\ethan\MCreatorWorkspaces\essential_additions\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\mergeMappings\output.jar

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "essential_additions:block/diamond_slab"
+    },
+    "type=top": {
+      "model": "essential_additions:block/diamond_slab_top"
+    },
+    "type=double": {
+      "model": "essential_additions:block/diamond_slab_full"
+    }
+  }
+}

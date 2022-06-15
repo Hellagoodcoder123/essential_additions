@@ -30,6 +30,7 @@ import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
 import net.mcreator.essentialadditions.world.biome.TheBloodlandsBiome;
+import net.mcreator.essentialadditions.world.biome.SmallAmethystCavesBiome;
 import net.mcreator.essentialadditions.EssentialAdditionsMod;
 
 import java.util.Map;
@@ -42,11 +43,14 @@ import com.mojang.datafixers.util.Pair;
 public class EssentialAdditionsModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, EssentialAdditionsMod.MODID);
 	public static final RegistryObject<Biome> THE_BLOODLANDS = REGISTRY.register("the_bloodlands", () -> TheBloodlandsBiome.createBiome());
+	public static final RegistryObject<Biome> SMALL_AMETHYST_CAVES = REGISTRY.register("small_amethyst_caves",
+			() -> SmallAmethystCavesBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			TheBloodlandsBiome.init();
+			SmallAmethystCavesBiome.init();
 		});
 	}
 

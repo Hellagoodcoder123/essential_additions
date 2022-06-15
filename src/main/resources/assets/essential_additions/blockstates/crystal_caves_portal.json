@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "essential_additions:block/crystal_caves_portal_ew"
+    },
+    "axis=x": {
+      "model": "essential_additions:block/crystal_caves_portal_ns"
+    }
+  }
+}

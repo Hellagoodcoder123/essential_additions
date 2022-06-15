@@ -1,0 +1,6 @@
+JVM:         C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "C:\Users\ethan\MCreatorWorkspaces\essential_additions\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\rename\output.jar", "--outJar", "C:\Users\ethan\MCreatorWorkspaces\essential_additions\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\AccessTransformer\output.jar", "--atFile", "C:\Users\ethan\MCreatorWorkspaces\essential_additions\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\ethan\AppData\Local\Temp\FG_ats_15530475576294524521.cfg"
+Classpath:   C:\Users\ethan\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working Dir: C:\Users\ethan\MCreatorWorkspaces\essential_additions\build\fg_cache\mcp\1.18.2-20220404.173914\joined\b7c5e1f24905b875dc267a17d42d63abc43f0a74\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

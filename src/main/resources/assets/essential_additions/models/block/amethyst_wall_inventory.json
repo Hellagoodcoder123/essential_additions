@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "essential_additions:blocks/amethyst",
+    "particle": "essential_additions:blocks/amethyst"
+  }
+}

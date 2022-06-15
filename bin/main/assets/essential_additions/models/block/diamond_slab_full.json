@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "essential_additions:blocks/diamond_block",
+    "top": "essential_additions:blocks/diamond_block",
+    "side": "essential_additions:blocks/diamond_block"
+  }
+}

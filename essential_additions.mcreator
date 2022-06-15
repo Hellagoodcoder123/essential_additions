@@ -4228,7 +4228,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_iron_ore",
-      "path": "~/Blocks/Ores"
+      "path": "~/Blocks/Gem Related/Ores"
     },
     {
       "name": "NetherDiamondOre",
@@ -4237,7 +4237,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_diamond_ore",
-      "path": "~/Blocks/Ores"
+      "path": "~/Blocks/Gem Related/Ores"
     },
     {
       "name": "NetherCopperOre",
@@ -4246,7 +4246,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "netherrack_copper_ore",
-      "path": "~/Blocks/Ores"
+      "path": "~/Blocks/Gem Related/Ores"
     },
     {
       "name": "NetherCopperOreLoot",
@@ -4255,7 +4255,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "nether_copper_ore_loot",
-      "path": "~/Loot Tables"
+      "path": "~/Loot Tables/Blocks"
     },
     {
       "name": "BlackstoneCopperOre",
@@ -4264,7 +4264,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "blackstone_copper_ore",
-      "path": "~/Blocks/Ores"
+      "path": "~/Blocks/Gem Related/Ores"
     },
     {
       "name": "EnderDragon",
@@ -4273,7 +4273,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ender_dragon",
-      "path": "~/Loot Tables"
+      "path": "~/Loot Tables/Entities/Minecraft/Aggressive/Bosses"
     },
     {
       "name": "OPLootChest",
@@ -4282,7 +4282,895 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "op_loot_chest",
-      "path": "~/Loot Tables"
+      "path": "~/Loot Tables/Chests"
+    },
+    {
+      "name": "LiquidAmethyst",
+      "type": "fluid",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liquid_amethyst",
+      "metadata": {
+        "gb": true
+      },
+      "path": "~/Fluids"
+    },
+    {
+      "name": "CrystalCavesPortalParticle",
+      "type": "particle",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_caves_portal_particle",
+      "path": "~/Particles"
+    },
+    {
+      "name": "Wither",
+      "type": "loottable",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither",
+      "path": "~/Loot Tables/Entities/Minecraft/Aggressive/Bosses"
+    },
+    {
+      "name": "Sheep",
+      "type": "loottable",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sheep",
+      "path": "~/Loot Tables/Entities/Minecraft/Passive"
+    },
+    {
+      "name": "Spider",
+      "type": "loottable",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "spider",
+      "path": "~/Loot Tables/Entities/Minecraft/Aggressive"
+    },
+    {
+      "name": "Vex",
+      "type": "loottable",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vex",
+      "path": "~/Loot Tables/Entities/Minecraft/Aggressive/Structures/Woodland Mansion"
+    },
+    {
+      "name": "Evoker",
+      "type": "loottable",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evoker",
+      "path": "~/Loot Tables/Entities/Minecraft/Aggressive/Structures/Woodland Mansion"
+    },
+    {
+      "name": "TheCrystalCaves",
+      "type": "tab",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_crystal_caves",
+      "path": "~/Creative Tabs"
+    },
+    {
+      "name": "VisitedAmethystGeode",
+      "type": "achievement",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "visited_amethyst_geode",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SmallAmethystCaves",
+      "type": "biome",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_amethyst_caves",
+      "path": "~/Biomes"
+    },
+    {
+      "name": "AmethystStairs",
+      "type": "block",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_stairs",
+      "path": "~/Blocks/Gem Related/Block Sets/Amethyst"
+    },
+    {
+      "name": "AmethystSlab",
+      "type": "block",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_slab",
+      "path": "~/Blocks/Gem Related/Block Sets/Amethyst"
+    },
+    {
+      "name": "AmethystWall",
+      "type": "block",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_wall",
+      "path": "~/Blocks/Gem Related/Block Sets/Amethyst"
+    },
+    {
+      "name": "AmethystButton",
+      "type": "block",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_button",
+      "path": "~/Blocks/Gem Related/Block Sets/Amethyst"
+    },
+    {
+      "name": "DiamondStairs",
+      "type": "block",
+      "sortid": 364,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_stairs",
+      "path": "~/Blocks/Gem Related/Block Sets/Diamond"
+    },
+    {
+      "name": "DiamondSlab",
+      "type": "block",
+      "sortid": 365,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_slab",
+      "path": "~/Blocks/Gem Related/Block Sets/Diamond"
+    },
+    {
+      "name": "DiamondWall",
+      "type": "block",
+      "sortid": 366,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_wall",
+      "path": "~/Blocks/Gem Related/Block Sets/Diamond"
+    },
+    {
+      "name": "DiamondButton",
+      "type": "block",
+      "sortid": 367,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_button",
+      "path": "~/Blocks/Gem Related/Block Sets/Diamond"
+    },
+    {
+      "name": "AmethystStairsRecipe",
+      "type": "recipe",
+      "sortid": 368,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_stairs_recipe",
+      "path": "~/Recipes/Block Sets/Amethyst"
+    },
+    {
+      "name": "AmethystSlabRecipe",
+      "type": "recipe",
+      "sortid": 369,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_slab_recipe",
+      "path": "~/Recipes/Block Sets/Amethyst"
+    },
+    {
+      "name": "AmethystWallRecipe",
+      "type": "recipe",
+      "sortid": 370,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_wall_recipe",
+      "path": "~/Recipes/Block Sets/Amethyst"
+    },
+    {
+      "name": "AmethystButtonRecipe",
+      "type": "recipe",
+      "sortid": 371,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_button_recipe",
+      "path": "~/Recipes/Block Sets/Amethyst"
+    },
+    {
+      "name": "DiamondStairsRecipe",
+      "type": "recipe",
+      "sortid": 372,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_stairs_recipe",
+      "path": "~/Recipes/Block Sets/Diamond"
+    },
+    {
+      "name": "DiamondSlabRecipe",
+      "type": "recipe",
+      "sortid": 373,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_slab_recipe",
+      "path": "~/Recipes/Block Sets/Diamond"
+    },
+    {
+      "name": "DiamondWallRecipe",
+      "type": "recipe",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_wall_recipe",
+      "path": "~/Recipes/Block Sets/Diamond"
+    },
+    {
+      "name": "DiamondButtonRecipe",
+      "type": "recipe",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_button_recipe",
+      "path": "~/Recipes/Block Sets/Diamond"
+    },
+    {
+      "name": "AmethystStairsRecipeStonecutter",
+      "type": "recipe",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_stairs_recipe_stonecutter",
+      "path": "~/Recipes/Block Sets/Amethyst"
+    },
+    {
+      "name": "AmethystSlabRecipeStonecutter",
+      "type": "recipe",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_slab_recipe_stonecutter",
+      "path": "~/Recipes/Block Sets/Amethyst"
+    },
+    {
+      "name": "AmethystWallRecipeStonecutter",
+      "type": "recipe",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_wall_recipe_stonecutter",
+      "path": "~/Recipes/Block Sets/Amethyst"
+    },
+    {
+      "name": "AmethystButtonRecipeStonecutter",
+      "type": "recipe",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_button_recipe_stonecutter",
+      "path": "~/Recipes/Block Sets/Amethyst"
+    },
+    {
+      "name": "DiamondStairsRecipeStonecutter",
+      "type": "recipe",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_stairs_recipe_stonecutter",
+      "path": "~/Recipes/Block Sets/Diamond"
+    },
+    {
+      "name": "DiamondSlabRecipeStonecutter",
+      "type": "recipe",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_slab_recipe_stonecutter",
+      "path": "~/Recipes/Block Sets/Diamond"
+    },
+    {
+      "name": "DiamondWallRecipeStonecutter",
+      "type": "recipe",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_wall_recipe_stonecutter",
+      "path": "~/Recipes/Block Sets/Diamond"
+    },
+    {
+      "name": "DiamondButtonRecipeStonecutter",
+      "type": "recipe",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_button_recipe_stonecutter",
+      "path": "~/Recipes/Block Sets/Diamond"
+    },
+    {
+      "name": "DiamondBlockToDiamond1",
+      "type": "recipe",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_block_to_diamond_1",
+      "path": "~/Recipes/Conversion/Inverse/Diamond Blocks"
+    },
+    {
+      "name": "DiamondBlockToDiamond2",
+      "type": "recipe",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_block_to_diamond_2",
+      "path": "~/Recipes/Conversion/Inverse/Diamond Blocks"
+    },
+    {
+      "name": "DiamondBlockToDiamond3",
+      "type": "recipe",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_block_to_diamond_3",
+      "path": "~/Recipes/Conversion/Inverse/Diamond Blocks"
+    },
+    {
+      "name": "DiamondBlockToDiamond4",
+      "type": "recipe",
+      "sortid": 387,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_block_to_diamond_4",
+      "path": "~/Recipes/Conversion/Inverse/Diamond Blocks"
+    },
+    {
+      "name": "DiamondBlockToDiamond5",
+      "type": "recipe",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_block_to_diamond_5",
+      "path": "~/Recipes/Conversion/Inverse/Diamond Blocks"
+    },
+    {
+      "name": "DiamondBlockToDiamond6",
+      "type": "recipe",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_block_to_diamond_6",
+      "path": "~/Recipes/Conversion/Inverse/Diamond Blocks"
+    },
+    {
+      "name": "EmeraldBlockToEmerald1",
+      "type": "recipe",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_block_to_emerald_1",
+      "path": "~/Recipes/Conversion/Inverse/Emerald Blocks"
+    },
+    {
+      "name": "EmeraldBlockToEmerald2",
+      "type": "recipe",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_block_to_emerald_2",
+      "path": "~/Recipes/Conversion/Inverse/Emerald Blocks"
+    },
+    {
+      "name": "EmeraldBlockToEmerald3",
+      "type": "recipe",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_block_to_emerald_3",
+      "path": "~/Recipes/Conversion/Inverse/Emerald Blocks"
+    },
+    {
+      "name": "EmeraldBlockToEmerald4",
+      "type": "recipe",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_block_to_emerald_4",
+      "path": "~/Recipes/Conversion/Inverse/Emerald Blocks"
+    },
+    {
+      "name": "EmeraldBlockToEmerald5",
+      "type": "recipe",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_block_to_emerald_5",
+      "path": "~/Recipes/Conversion/Inverse/Emerald Blocks"
+    },
+    {
+      "name": "EmeraldBlockToEmerald6",
+      "type": "recipe",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_block_to_emerald_6",
+      "path": "~/Recipes/Conversion/Inverse/Emerald Blocks"
+    },
+    {
+      "name": "GoldBlockToGoldIngot1",
+      "type": "recipe",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_block_to_gold_ingot_1",
+      "path": "~/Recipes/Conversion/Inverse/Gold Blocks"
+    },
+    {
+      "name": "GoldBlockToGoldIngot2",
+      "type": "recipe",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_block_to_gold_ingot_2",
+      "path": "~/Recipes/Conversion/Inverse/Gold Blocks"
+    },
+    {
+      "name": "GoldBlockToGoldIngot3",
+      "type": "recipe",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_block_to_gold_ingot_3",
+      "path": "~/Recipes/Conversion/Inverse/Gold Blocks"
+    },
+    {
+      "name": "GoldBlockToGoldIngot4",
+      "type": "recipe",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_block_to_gold_ingot_4",
+      "path": "~/Recipes/Conversion/Inverse/Gold Blocks"
+    },
+    {
+      "name": "GoldBlockToGoldIngot5",
+      "type": "recipe",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_block_to_gold_ingot_5",
+      "path": "~/Recipes/Conversion/Inverse/Gold Blocks"
+    },
+    {
+      "name": "GoldBlockToGoldIngot6",
+      "type": "recipe",
+      "sortid": 401,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_block_to_gold_ingot_6",
+      "path": "~/Recipes/Conversion/Inverse/Gold Blocks"
+    },
+    {
+      "name": "IronBlockToIronIngot1",
+      "type": "recipe",
+      "sortid": 402,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_block_to_iron_ingot_1",
+      "path": "~/Recipes/Conversion/Inverse/Iron Blocks"
+    },
+    {
+      "name": "IronBlockToIronIngot2",
+      "type": "recipe",
+      "sortid": 403,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_block_to_iron_ingot_2",
+      "path": "~/Recipes/Conversion/Inverse/Iron Blocks"
+    },
+    {
+      "name": "IronBlockToIronIngot3",
+      "type": "recipe",
+      "sortid": 404,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_block_to_iron_ingot_3",
+      "path": "~/Recipes/Conversion/Inverse/Iron Blocks"
+    },
+    {
+      "name": "IronBlockToIronIngot4",
+      "type": "recipe",
+      "sortid": 405,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_block_to_iron_ingot_4",
+      "path": "~/Recipes/Conversion/Inverse/Iron Blocks"
+    },
+    {
+      "name": "IronBlockToIronIngot5",
+      "type": "recipe",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_block_to_iron_ingot_5",
+      "path": "~/Recipes/Conversion/Inverse/Iron Blocks"
+    },
+    {
+      "name": "IronBlockToIronIngot6",
+      "type": "recipe",
+      "sortid": 407,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_block_to_iron_ingot_6",
+      "path": "~/Recipes/Conversion/Inverse/Iron Blocks"
+    },
+    {
+      "name": "NetheriteBlockToNetheriteIngot1",
+      "type": "recipe",
+      "sortid": 408,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_block_to_netherite_ingot_1",
+      "path": "~/Recipes/Conversion/Inverse/Netherite Blocks"
+    },
+    {
+      "name": "NetheriteBlockToNetheriteIngot2",
+      "type": "recipe",
+      "sortid": 409,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_block_to_netherite_ingot_2",
+      "path": "~/Recipes/Conversion/Inverse/Netherite Blocks"
+    },
+    {
+      "name": "NetheriteBlockToNetheriteIngot3",
+      "type": "recipe",
+      "sortid": 410,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_block_to_netherite_ingot_3",
+      "path": "~/Recipes/Conversion/Inverse/Netherite Blocks"
+    },
+    {
+      "name": "NetheriteBlockToNetheriteIngot4",
+      "type": "recipe",
+      "sortid": 411,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_block_to_netherite_ingot_4",
+      "path": "~/Recipes/Conversion/Inverse/Netherite Blocks"
+    },
+    {
+      "name": "NetheriteBlockToNetheriteIngot5",
+      "type": "recipe",
+      "sortid": 412,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_block_to_netherite_ingot_5",
+      "path": "~/Recipes/Conversion/Inverse/Netherite Blocks"
+    },
+    {
+      "name": "NetheriteBlockToNetheriteIngot6",
+      "type": "recipe",
+      "sortid": 413,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_block_to_netherite_ingot_6",
+      "path": "~/Recipes/Conversion/Inverse/Netherite Blocks"
+    },
+    {
+      "name": "CopperBlockToCopperIngot1",
+      "type": "recipe",
+      "sortid": 414,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_block_to_copper_ingot_1",
+      "path": "~/Recipes/Conversion/Inverse/Copper Blocks"
+    },
+    {
+      "name": "CopperBlockToCopperIngot2",
+      "type": "recipe",
+      "sortid": 415,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_block_to_copper_ingot_2",
+      "path": "~/Recipes/Conversion/Inverse/Copper Blocks"
+    },
+    {
+      "name": "CopperBlockToCopperIngot3",
+      "type": "recipe",
+      "sortid": 416,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_block_to_copper_ingot_3",
+      "path": "~/Recipes/Conversion/Inverse/Copper Blocks"
+    },
+    {
+      "name": "CopperBlockToCopperIngot4",
+      "type": "recipe",
+      "sortid": 417,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_block_to_copper_ingot_4",
+      "path": "~/Recipes/Conversion/Inverse/Copper Blocks"
+    },
+    {
+      "name": "CopperBlockToCopperIngot5",
+      "type": "recipe",
+      "sortid": 418,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_block_to_copper_ingot_5",
+      "path": "~/Recipes/Conversion/Inverse/Copper Blocks"
+    },
+    {
+      "name": "CopperBlockToCopperIngot6",
+      "type": "recipe",
+      "sortid": 419,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_block_to_copper_ingot_6",
+      "path": "~/Recipes/Conversion/Inverse/Copper Blocks"
+    },
+    {
+      "name": "CoalBlockToCoal1",
+      "type": "recipe",
+      "sortid": 420,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_block_to_coal_1",
+      "path": "~/Recipes/Conversion/Inverse/Coal Blocks"
+    },
+    {
+      "name": "CoalBlockToCoal2",
+      "type": "recipe",
+      "sortid": 421,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_block_to_coal_2",
+      "path": "~/Recipes/Conversion/Inverse/Coal Blocks"
+    },
+    {
+      "name": "CoalBlockToCoal3",
+      "type": "recipe",
+      "sortid": 422,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_block_to_coal_3",
+      "path": "~/Recipes/Conversion/Inverse/Coal Blocks"
+    },
+    {
+      "name": "CoalBlockToCoal4",
+      "type": "recipe",
+      "sortid": 423,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_block_to_coal_4",
+      "path": "~/Recipes/Conversion/Inverse/Coal Blocks"
+    },
+    {
+      "name": "CoalBlockToCoal5",
+      "type": "recipe",
+      "sortid": 424,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_block_to_coal_5",
+      "path": "~/Recipes/Conversion/Inverse/Coal Blocks"
+    },
+    {
+      "name": "CoalBlockToCoal6",
+      "type": "recipe",
+      "sortid": 425,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coal_block_to_coal_6",
+      "path": "~/Recipes/Conversion/Inverse/Coal Blocks"
+    },
+    {
+      "name": "LapisBlockToLapis1",
+      "type": "recipe",
+      "sortid": 426,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_block_to_lapis_1",
+      "path": "~/Recipes/Conversion/Inverse/Lapis Blocks"
+    },
+    {
+      "name": "LapisBlockToLapis2",
+      "type": "recipe",
+      "sortid": 427,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_block_to_lapis_2",
+      "path": "~/Recipes/Conversion/Inverse/Lapis Blocks"
+    },
+    {
+      "name": "LapisBlockToLapis3",
+      "type": "recipe",
+      "sortid": 428,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_block_to_lapis_3",
+      "path": "~/Recipes/Conversion/Inverse/Lapis Blocks"
+    },
+    {
+      "name": "LapisBlockToLapis4",
+      "type": "recipe",
+      "sortid": 429,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_block_to_lapis_4",
+      "path": "~/Recipes/Conversion/Inverse/Lapis Blocks"
+    },
+    {
+      "name": "LapisBlockToLapis5",
+      "type": "recipe",
+      "sortid": 430,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_block_to_lapis_5",
+      "path": "~/Recipes/Conversion/Inverse/Lapis Blocks"
+    },
+    {
+      "name": "LapisBlockToLapis6",
+      "type": "recipe",
+      "sortid": 431,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lapis_block_to_lapis_6",
+      "path": "~/Recipes/Conversion/Inverse/Lapis Blocks"
+    },
+    {
+      "name": "RedstoneBlockToRedstone1",
+      "type": "recipe",
+      "sortid": 432,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_block_to_redstone_1",
+      "path": "~/Recipes/Conversion/Inverse/Redstone Blocks"
+    },
+    {
+      "name": "RedstoneBlockToRedstone2",
+      "type": "recipe",
+      "sortid": 433,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_block_to_redstone_2",
+      "path": "~/Recipes/Conversion/Inverse/Redstone Blocks"
+    },
+    {
+      "name": "RedstoneBlockToRedstone3",
+      "type": "recipe",
+      "sortid": 434,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_block_to_redstone_3",
+      "path": "~/Recipes/Conversion/Inverse/Redstone Blocks"
+    },
+    {
+      "name": "RedstoneBlockToRedstone4",
+      "type": "recipe",
+      "sortid": 435,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_block_to_redstone_4",
+      "path": "~/Recipes/Conversion/Inverse/Redstone Blocks"
+    },
+    {
+      "name": "RedstoneBlockToRedstone5",
+      "type": "recipe",
+      "sortid": 436,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_block_to_redstone_5",
+      "path": "~/Recipes/Conversion/Inverse/Redstone Blocks"
+    },
+    {
+      "name": "RedstoneBlockToRedstone6",
+      "type": "recipe",
+      "sortid": 437,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_block_to_redstone_6",
+      "path": "~/Recipes/Conversion/Inverse/Redstone Blocks"
+    },
+    {
+      "name": "SlimeBlockToSlimeball1",
+      "type": "recipe",
+      "sortid": 438,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_block_to_slimeball_1",
+      "path": "~/Recipes/Conversion/Inverse/Slime Blocks"
+    },
+    {
+      "name": "SlimeBlockToSlimeball2",
+      "type": "recipe",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_block_to_slimeball_2",
+      "path": "~/Recipes/Conversion/Inverse/Slime Blocks"
+    },
+    {
+      "name": "SlimeBlockToSlimeball3",
+      "type": "recipe",
+      "sortid": 440,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_block_to_slimeball_3",
+      "path": "~/Recipes/Conversion/Inverse/Slime Blocks"
+    },
+    {
+      "name": "SlimeBlockToSlimeball4",
+      "type": "recipe",
+      "sortid": 441,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_block_to_slimeball_4",
+      "path": "~/Recipes/Conversion/Inverse/Slime Blocks"
+    },
+    {
+      "name": "SlimeBlockToSlimeball5",
+      "type": "recipe",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_block_to_slimeball_5",
+      "path": "~/Recipes/Conversion/Inverse/Slime Blocks"
+    },
+    {
+      "name": "SlimeBlockToSlimeball6",
+      "type": "recipe",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_block_to_slimeball_6",
+      "path": "~/Recipes/Conversion/Inverse/Slime Blocks"
+    },
+    {
+      "name": "Smallamethystcave1",
+      "type": "structure",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smallamethystcave_1",
+      "path": "~/Structures"
+    },
+    {
+      "name": "CrystalCaves",
+      "type": "dimension",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_caves",
+      "metadata": {
+        "ep": true
+      },
+      "path": "~/Dimensions"
+    },
+    {
+      "name": "CrystalCavesCanMakePortal",
+      "type": "procedure",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_caves_can_make_portal",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Return Value/Boolean/Dimension"
     }
   ],
   "variable_elements": [
@@ -4433,41 +5321,45 @@
     "en_us": {
       "block.essential_additions.brown_planks": "Brown Stained Planks",
       "block.essential_additions.lime_log": "Lime Stained Log",
+      "block.essential_additions.diamond_stairs": "Diamond Stairs",
       "block.essential_additions.nether_diamond_ore": "Nether Iron Ore",
       "block.essential_additions.jump_pad_3": "Jump Pad MK.3",
       "block.essential_additions.jump_pad_2": "Jump Pad MK.2",
       "advancements.animal_genocide_3.descr": "Have had 100,000 animals killed by players for the world",
-      "block.essential_additions.jump_pad_1": "Jump Pad MK.1",
-      "gamerule.americanenglish.description": "Should the language used for the mod be American or British English.",
       "item.essential_additions.binding_agent_3": "T3 Binding Agent ",
+      "gamerule.americanenglish.description": "Should the language used for the mod be American or British English.",
+      "block.essential_additions.jump_pad_1": "Jump Pad MK.1",
       "block.essential_additions.bloodwood_leaves": "Bloodwood Leaves",
       "item.essential_additions.binding_agent_2": "T2 Binding Agent",
-      "advancements.animal_genocide.title": "Animal Genocide",
+      "block.essential_additions.diamond_slab": "Diamond Slab",
       "item.essential_additions.tall_enderman_spawn_egg": "Tall Enderman Spawn Egg",
+      "advancements.animal_genocide.title": "Animal Genocide",
       "block.essential_additions.bloodwood_stairs": "Bloodwood Stairs",
       "block.essential_additions.red_planks": "Red Stained Planks",
       "block.essential_additions.wooden_bars": "Wooden Bars",
       "block.essential_additions.brown_log": "Brown Stained Log",
+      "item.essential_additions.liquid_amethyst_bucket": "Liquid Amethyst Bucket",
       "block.essential_additions.cyan_log": "Cyan Stained Log",
-      "block.essential_additions.red_log": "Red Stained Log",
-      "advancements.animal_genocide_2.title": "Animal Genocide 2",
       "block.essential_additions.netherrack_copper_ore": "Netherrack Copper Ore",
+      "advancements.animal_genocide_2.title": "Animal Genocide 2",
+      "block.essential_additions.red_log": "Red Stained Log",
       "block.essential_additions.jump_pad_9": "Jump Pad MK.9",
       "block.essential_additions.magenta_log": "Magenta Stained Log",
       "block.essential_additions.pink_planks": "Pink Stained Planks",
       "block.essential_additions.jump_pad_8": "Jump Pad MK.8",
       "block.essential_additions.jump_pad_7": "Jump Pad MK.7",
-      "block.essential_additions.light_blue_planks": "Light Blue Stained Planks",
       "block.essential_additions.jump_pad_6": "Jump Pad MK.6",
-      "block.essential_additions.jump_pad_5": "Jump Pad MK.5",
+      "block.essential_additions.light_blue_planks": "Light Blue Stained Planks",
       "gamerule.americanEnglish.description": "Should the language used for the mod be American or British English.",
+      "block.essential_additions.jump_pad_5": "Jump Pad MK.5",
       "block.essential_additions.jump_pad_4": "Jump Pad MK.4",
       "block.essential_additions.blue_planks": "Blue Stained Planks",
-      "subtitles.astronaut_in_ocean": "Masked Wolf - Astronaut In The Ocean",
       "block.essential_additions.gray_log": "Gray Stained Log",
+      "subtitles.astronaut_in_ocean": "Masked Wolf - Astronaut In The Ocean",
       "item.essential_additions.astronaut_chestplate": "Astronaut Chest",
       "block.essential_additions.magenta_planks": "Magenta Stained Planks",
       "block.essential_additions.bloodwood_button": "Bloodwood Button",
+      "fluid.essential_additions.liquid_amethyst": "Liquid Amethyst",
       "gamerule.americanenglish": "American English",
       "item.minecraft.splash_potion.effect.troll_potion": "Splash Troll Potion",
       "block.essential_additions.orange_planks": "Orange Stained Planks",
@@ -4479,17 +5371,23 @@
       "item.essential_additions.astronaut_helmet": "Astronaut Helmet",
       "item.essential_additions.assembly_5": "T5 Assembly",
       "item.essential_additions.assembly_4": "T4 Assembly",
+      "advancements.visited_amethyst_geode.descr": "Stumble upon an amethyst geode",
       "block.essential_additions.dark_green_planks": "Green Stained Planks",
       "block.essential_additions.bloodwood_slab": "Bloodwood Slab",
+      "block.essential_additions.amethyst_stairs": "Amethyst Stairs",
       "advancements.essential_additions.title": "Essential Additions",
       "block.essential_additions.light_blue_log": "Light Blue Stained Log",
       "advancements.animal_genocide_2.descr": "Have had 10,000 animals killed by players for the world",
       "block.essential_additions.purple_log": "Purple Stained Log",
       "entity.essential_additions.bomb": "Bomb",
       "block.essential_additions.stone_bars": "Stone Bars",
+      "biome.essential_additions.small_amethyst_caves": "Small Amethyst Caves",
       "item.minecraft.potion.effect.troll_potion": "Troll Potion",
       "item.essential_additions.astronaut_leggings": "Astronaut Legs",
       "block.essential_additions.orange_log": "Orange Stained Log",
+      "block.essential_additions.diamond_button": "Diamond Button",
+      "itemGroup.tabthe_crystal_caves": "EA - The Crystal Caves",
+      "block.essential_additions.amethyst_slab": "Amethyst Slab",
       "block.essential_additions.solid_air": "Solid Air",
       "gamerule.americanEnglish": "American English",
       "block.essential_additions.black_planks": "Black Stained Planks",
@@ -4498,9 +5396,12 @@
       "block.essential_additions.blue_log": "Blue Stained Log",
       "block.essential_additions.light_gray_log": "Light Gray Stained Log",
       "block.essential_additions.bloodwood_fence_gate": "Bloodwood Fence Gate",
+      "item.essential_additions.crystal_caves": "Diamond and Amethyst Igniter",
       "block.essential_additions.black_log": "Black Stained Log",
+      "block.essential_additions.amethyst_button": "Amethyst Button",
       "block.essential_additions.bloodwood_planks": "Bloodwood Planks",
       "block.essential_additions.bloodwood_fence": "Bloodwood Fence",
+      "advancements.visited_amethyst_geode.title": "Musical Gems",
       "advancements.animal_genocide.descr": "Have had 1,000 animals killed by players for the world",
       "block.essential_additions.pink_log": "Pink Stained Log",
       "gamerule.american_english": "American English",
@@ -4526,8 +5427,10 @@
       "block.essential_additions.blackstone_copper_ore": "Netherrack Copper Ore",
       "block.essential_additions.gold_bars": "Gold Bars",
       "block.essential_additions.jump_pad_15": "Jump Pad MK.15",
+      "block.essential_additions.liquid_amethyst": "Liquid Amethyst",
       "block.essential_additions.jump_pad_13": "Jump Pad MK.13",
       "block.essential_additions.jump_pad_14": "Jump Pad MK.14",
+      "block.essential_additions.amethyst_wall": "Amethyst Wall",
       "block.essential_additions.jump_pad_11": "Jump Pad MK.11",
       "block.essential_additions.cauldron_dummy": "Cauldron Dummy",
       "block.essential_additions.jump_pad_12": "Jump Pad MK.12",
@@ -4539,46 +5442,51 @@
       "block.essential_additions.light_gray_planks": "Light Gray Stained Planks",
       "item.minecraft.tipped_arrow.effect.troll_potion": "Arrow of Trolling",
       "item.essential_additions.binding_agent": "Binding Agent",
-      "item.essential_additions.astronaut_boots": "Astronaut Boots"
+      "item.essential_additions.astronaut_boots": "Astronaut Boots",
+      "block.essential_additions.diamond_wall": "Diamond Wall"
     },
     "en_au": {
       "block.essential_additions.brown_planks": "Cyan Stained Planks",
       "block.essential_additions.lime_log": "Green Stained Log",
+      "block.essential_additions.diamond_stairs": "Diamond Stairs",
       "block.essential_additions.nether_diamond_ore": "Nether Iron Ore",
       "block.essential_additions.jump_pad_3": "Jump Pad MK.3",
       "block.essential_additions.jump_pad_2": "Jump Pad MK.2",
       "advancements.animal_genocide_3.descr": "Have had 10,000 animals killed by players for the world",
-      "block.essential_additions.jump_pad_1": "Jump Pad MK.1",
-      "gamerule.americanenglish.description": "Should the language used for the mod be American or Australian English.",
       "item.essential_additions.binding_agent_3": "Binding Agent 3",
+      "gamerule.americanenglish.description": "Should the language used for the mod be American or Australian English.",
+      "block.essential_additions.jump_pad_1": "Jump Pad MK.1",
       "block.essential_additions.bloodwood_leaves": "Bloodwood Leaves",
       "item.essential_additions.binding_agent_2": "T2 Binding Agent",
-      "advancements.animal_genocide.title": "Animal Genocide",
+      "block.essential_additions.diamond_slab": "Diamond Stairs",
       "item.essential_additions.tall_enderman_spawn_egg": "Tall Enderman Spawn Egg",
+      "advancements.animal_genocide.title": "Animal Genocide",
       "block.essential_additions.bloodwood_stairs": "Bloodwood Stairs",
       "block.essential_additions.red_planks": "Red Stained Planks",
       "block.essential_additions.wooden_bars": "Wooden Bars",
       "block.essential_additions.brown_log": "White Stained Log",
+      "item.essential_additions.liquid_amethyst_bucket": "Liquid Amethyst Bucket",
       "block.essential_additions.cyan_log": "White Stained Log",
-      "block.essential_additions.red_log": "Red Stained Log",
-      "advancements.animal_genocide_2.title": "Animal Genocide 2",
       "block.essential_additions.netherrack_copper_ore": "Netherrack Copper Ore",
+      "advancements.animal_genocide_2.title": "Animal Genocide 2",
+      "block.essential_additions.red_log": "Red Stained Log",
       "block.essential_additions.jump_pad_9": "Jump Pad MK.8",
       "block.essential_additions.magenta_log": "Green Stained Log",
       "block.essential_additions.pink_planks": "Light Gray Stained Planks",
       "block.essential_additions.jump_pad_8": "Jump Pad MK.7",
       "block.essential_additions.jump_pad_7": "Jump Pad MK.6",
-      "block.essential_additions.light_blue_planks": "Blue Stained Planks",
       "block.essential_additions.jump_pad_6": "Jump Pad MK.5",
-      "block.essential_additions.jump_pad_5": "Jump Pad MK.5",
+      "block.essential_additions.light_blue_planks": "Blue Stained Planks",
       "gamerule.americanEnglish.description": "Should the language used for the mod be American or Australian English.",
+      "block.essential_additions.jump_pad_5": "Jump Pad MK.5",
       "block.essential_additions.jump_pad_4": "Jump Pad MK.4",
       "block.essential_additions.blue_planks": "Black Stained Planks",
-      "subtitles.astronaut_in_ocean": "Masked Wolf - Astronaut In The Ocean",
       "block.essential_additions.gray_log": "Black Stained Log",
+      "subtitles.astronaut_in_ocean": "Masked Wolf - Astronaut In The Ocean",
       "item.essential_additions.astronaut_chestplate": "Astronaut Chest",
       "block.essential_additions.magenta_planks": "Dark Green Stained Planks",
       "block.essential_additions.bloodwood_button": "Bloodwood Button",
+      "fluid.essential_additions.liquid_amethyst": "Liquid Amethyst",
       "gamerule.americanenglish": "American English",
       "item.minecraft.splash_potion.effect.troll_potion": "Splash Troll Potion",
       "block.essential_additions.orange_planks": "Red Stained Planks",
@@ -4590,17 +5498,23 @@
       "item.essential_additions.astronaut_helmet": "Astronaut Helmet",
       "item.essential_additions.assembly_5": "T4 Assembly",
       "item.essential_additions.assembly_4": "T3 Assembly",
+      "advancements.visited_amethyst_geode.descr": "Stumble upon an amethyst geode",
       "block.essential_additions.dark_green_planks": "Green Stained Planks",
       "block.essential_additions.bloodwood_slab": "Bloodwood Slab",
+      "block.essential_additions.amethyst_stairs": "Amethyst Stairs",
       "advancements.essential_additions.title": "Essential Additions",
       "block.essential_additions.light_blue_log": "White Stained Log",
       "advancements.animal_genocide_2.descr": "Have had 10,000 animals killed by players for the world",
       "block.essential_additions.purple_log": "Green Stained Log",
       "entity.essential_additions.bomb": "Bomb",
       "block.essential_additions.stone_bars": "Stone Bars",
+      "biome.essential_additions.small_amethyst_caves": "Small Amethyst Caves",
       "item.minecraft.potion.effect.troll_potion": "Troll Potion",
       "item.essential_additions.astronaut_leggings": "Astronaut Legs",
       "block.essential_additions.orange_log": "Red Stained Log",
+      "block.essential_additions.diamond_button": "Diamond Stairs",
+      "itemGroup.tabthe_crystal_caves": "EA - The Crystal Caves",
+      "block.essential_additions.amethyst_slab": "Amethyst Stairs",
       "block.essential_additions.solid_air": "Solid Air",
       "gamerule.americanEnglish": "American English",
       "block.essential_additions.black_planks": "Yellow Stained Planks",
@@ -4609,9 +5523,12 @@
       "block.essential_additions.blue_log": "White Stained Log",
       "block.essential_additions.light_gray_log": "Black Stained Log",
       "block.essential_additions.bloodwood_fence_gate": "Bloodwood Fence Gate",
+      "item.essential_additions.crystal_caves": "Diamond and Amethyst Igniter",
       "block.essential_additions.black_log": "Purple Stained Log",
+      "block.essential_additions.amethyst_button": "Amethyst Wall",
       "block.essential_additions.bloodwood_planks": "Bloodwood Planks",
       "block.essential_additions.bloodwood_fence": "Bloodwood Fence",
+      "advancements.visited_amethyst_geode.title": "Musical Gems",
       "advancements.animal_genocide.descr": "Have had 1,000 animals killed by players for the world",
       "block.essential_additions.pink_log": "Green Stained Log",
       "gamerule.american_english": "American English",
@@ -4637,8 +5554,10 @@
       "block.essential_additions.blackstone_copper_ore": "Netherrack Copper Ore",
       "block.essential_additions.gold_bars": "Gold Bars",
       "block.essential_additions.jump_pad_15": "Jump Pad MK.14",
+      "block.essential_additions.liquid_amethyst": "Liquid Amethyst",
       "block.essential_additions.jump_pad_13": "Jump Pad MK.12",
       "block.essential_additions.jump_pad_14": "Jump Pad MK.13",
+      "block.essential_additions.amethyst_wall": "Amethyst Slab",
       "block.essential_additions.jump_pad_11": "Jump Pad MK.10",
       "block.essential_additions.cauldron_dummy": "Cauldron Dummy",
       "block.essential_additions.jump_pad_12": "Jump Pad MK.11",
@@ -4650,7 +5569,8 @@
       "block.essential_additions.light_gray_planks": "Gray Stained Planks",
       "item.minecraft.tipped_arrow.effect.troll_potion": "Arrow of Trolling",
       "item.essential_additions.binding_agent": "Binding Agent",
-      "item.essential_additions.astronaut_boots": "Astronaut Boots"
+      "item.essential_additions.astronaut_boots": "Astronaut Boots",
+      "block.essential_additions.diamond_wall": "Diamond Stairs"
     }
   },
   "foldersRoot": {
@@ -4743,6 +5663,73 @@
           {
             "name": "Logs",
             "children": []
+          },
+          {
+            "name": "Block Sets",
+            "children": [
+              {
+                "name": "Amethyst",
+                "children": []
+              },
+              {
+                "name": "Diamond",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Conversion",
+            "children": [
+              {
+                "name": "Converse",
+                "children": []
+              },
+              {
+                "name": "Inverse",
+                "children": [
+                  {
+                    "name": "Diamond Blocks",
+                    "children": []
+                  },
+                  {
+                    "name": "Emerald Blocks",
+                    "children": []
+                  },
+                  {
+                    "name": "Gold Blocks",
+                    "children": []
+                  },
+                  {
+                    "name": "Iron Blocks",
+                    "children": []
+                  },
+                  {
+                    "name": "Netherite Blocks",
+                    "children": []
+                  },
+                  {
+                    "name": "Copper Blocks",
+                    "children": []
+                  },
+                  {
+                    "name": "Coal Blocks",
+                    "children": []
+                  },
+                  {
+                    "name": "Lapis Blocks",
+                    "children": []
+                  },
+                  {
+                    "name": "Redstone Blocks",
+                    "children": []
+                  },
+                  {
+                    "name": "Slime Blocks",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -4778,8 +5765,26 @@
             "children": []
           },
           {
-            "name": "Ores",
-            "children": []
+            "name": "Gem Related",
+            "children": [
+              {
+                "name": "Ores",
+                "children": []
+              },
+              {
+                "name": "Block Sets",
+                "children": [
+                  {
+                    "name": "Amethyst",
+                    "children": []
+                  },
+                  {
+                    "name": "Diamond",
+                    "children": []
+                  }
+                ]
+              }
+            ]
           }
         ]
       },
@@ -4910,6 +5915,10 @@
                   {
                     "name": "Maths",
                     "children": []
+                  },
+                  {
+                    "name": "Dimension",
+                    "children": []
                   }
                 ]
               }
@@ -4998,6 +6007,71 @@
       },
       {
         "name": "Loot Tables",
+        "children": [
+          {
+            "name": "Entities",
+            "children": [
+              {
+                "name": "Minecraft",
+                "children": [
+                  {
+                    "name": "Passive",
+                    "children": []
+                  },
+                  {
+                    "name": "Neutral",
+                    "children": []
+                  },
+                  {
+                    "name": "Aggressive",
+                    "children": [
+                      {
+                        "name": "Bosses",
+                        "children": []
+                      },
+                      {
+                        "name": "Structures",
+                        "children": [
+                          {
+                            "name": "Woodland Mansion",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "Chests",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Dimensions",
+        "children": []
+      },
+      {
+        "name": "Fluids",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "Particles",
+        "children": []
+      },
+      {
+        "name": "Creative Tabs",
         "children": []
       }
     ]
@@ -5005,7 +6079,7 @@
   "workspaceSettings": {
     "modid": "essential_additions",
     "modName": "Essential Additions",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "ethan, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

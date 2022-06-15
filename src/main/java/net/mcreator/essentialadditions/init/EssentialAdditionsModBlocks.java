@@ -35,6 +35,7 @@ import net.mcreator.essentialadditions.block.NetherDiamondOreBlock;
 import net.mcreator.essentialadditions.block.NetherCopperOreBlock;
 import net.mcreator.essentialadditions.block.MagentaPlanksBlock;
 import net.mcreator.essentialadditions.block.MagentaLogBlock;
+import net.mcreator.essentialadditions.block.LiquidAmethystBlock;
 import net.mcreator.essentialadditions.block.LimeLogBlock;
 import net.mcreator.essentialadditions.block.LightGrayPlanksBlock;
 import net.mcreator.essentialadditions.block.LightGrayLogBlock;
@@ -60,10 +61,15 @@ import net.mcreator.essentialadditions.block.GreenLogBlock;
 import net.mcreator.essentialadditions.block.GrayPlanksBlock;
 import net.mcreator.essentialadditions.block.GrayLogBlock;
 import net.mcreator.essentialadditions.block.GoldBarsBlock;
+import net.mcreator.essentialadditions.block.DiamondWallBlock;
+import net.mcreator.essentialadditions.block.DiamondStairsBlock;
+import net.mcreator.essentialadditions.block.DiamondSlabBlock;
+import net.mcreator.essentialadditions.block.DiamondButtonBlock;
 import net.mcreator.essentialadditions.block.DiamondBarsBlock;
 import net.mcreator.essentialadditions.block.DarkGreenPlanksBlock;
 import net.mcreator.essentialadditions.block.CyanPlanksBlock;
 import net.mcreator.essentialadditions.block.CyanLogBlock;
+import net.mcreator.essentialadditions.block.CrystalCavesPortalBlock;
 import net.mcreator.essentialadditions.block.CauldronDummyBlock;
 import net.mcreator.essentialadditions.block.BrownPlanksBlock;
 import net.mcreator.essentialadditions.block.BrownLogBlock;
@@ -84,6 +90,10 @@ import net.mcreator.essentialadditions.block.BloodDirtBlock;
 import net.mcreator.essentialadditions.block.BlackstoneCopperOreBlock;
 import net.mcreator.essentialadditions.block.BlackPlanksBlock;
 import net.mcreator.essentialadditions.block.BlackLogBlock;
+import net.mcreator.essentialadditions.block.AmethystWallBlock;
+import net.mcreator.essentialadditions.block.AmethystStairsBlock;
+import net.mcreator.essentialadditions.block.AmethystSlabBlock;
+import net.mcreator.essentialadditions.block.AmethystButtonBlock;
 import net.mcreator.essentialadditions.EssentialAdditionsMod;
 
 public class EssentialAdditionsModBlocks {
@@ -160,6 +170,16 @@ public class EssentialAdditionsModBlocks {
 	public static final RegistryObject<Block> NETHERRACK_COPPER_ORE = REGISTRY.register("netherrack_copper_ore", () -> new NetherCopperOreBlock());
 	public static final RegistryObject<Block> BLACKSTONE_COPPER_ORE = REGISTRY.register("blackstone_copper_ore",
 			() -> new BlackstoneCopperOreBlock());
+	public static final RegistryObject<Block> LIQUID_AMETHYST = REGISTRY.register("liquid_amethyst", () -> new LiquidAmethystBlock());
+	public static final RegistryObject<Block> CRYSTAL_CAVES_PORTAL = REGISTRY.register("crystal_caves_portal", () -> new CrystalCavesPortalBlock());
+	public static final RegistryObject<Block> AMETHYST_STAIRS = REGISTRY.register("amethyst_stairs", () -> new AmethystStairsBlock());
+	public static final RegistryObject<Block> AMETHYST_SLAB = REGISTRY.register("amethyst_slab", () -> new AmethystSlabBlock());
+	public static final RegistryObject<Block> AMETHYST_WALL = REGISTRY.register("amethyst_wall", () -> new AmethystWallBlock());
+	public static final RegistryObject<Block> AMETHYST_BUTTON = REGISTRY.register("amethyst_button", () -> new AmethystButtonBlock());
+	public static final RegistryObject<Block> DIAMOND_STAIRS = REGISTRY.register("diamond_stairs", () -> new DiamondStairsBlock());
+	public static final RegistryObject<Block> DIAMOND_SLAB = REGISTRY.register("diamond_slab", () -> new DiamondSlabBlock());
+	public static final RegistryObject<Block> DIAMOND_WALL = REGISTRY.register("diamond_wall", () -> new DiamondWallBlock());
+	public static final RegistryObject<Block> DIAMOND_BUTTON = REGISTRY.register("diamond_button", () -> new DiamondButtonBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

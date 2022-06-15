@@ -26,8 +26,11 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.essentialadditions.init.EssentialAdditionsModTabs;
 import net.mcreator.essentialadditions.init.EssentialAdditionsModPotions;
+import net.mcreator.essentialadditions.init.EssentialAdditionsModParticleTypes;
 import net.mcreator.essentialadditions.init.EssentialAdditionsModItems;
+import net.mcreator.essentialadditions.init.EssentialAdditionsModFluids;
 import net.mcreator.essentialadditions.init.EssentialAdditionsModFeatures;
 import net.mcreator.essentialadditions.init.EssentialAdditionsModEntities;
 import net.mcreator.essentialadditions.init.EssentialAdditionsModBlocks;
@@ -48,17 +51,18 @@ public class EssentialAdditionsMod {
 	private static int messageID = 0;
 
 	public EssentialAdditionsMod() {
-
+		EssentialAdditionsModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		EssentialAdditionsModBlocks.REGISTRY.register(bus);
 		EssentialAdditionsModItems.REGISTRY.register(bus);
 		EssentialAdditionsModEntities.REGISTRY.register(bus);
 		EssentialAdditionsModBlockEntities.REGISTRY.register(bus);
 		EssentialAdditionsModFeatures.REGISTRY.register(bus);
+		EssentialAdditionsModFluids.REGISTRY.register(bus);
 
 		EssentialAdditionsModPotions.REGISTRY.register(bus);
 		EssentialAdditionsModBiomes.REGISTRY.register(bus);
-
+		EssentialAdditionsModParticleTypes.REGISTRY.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

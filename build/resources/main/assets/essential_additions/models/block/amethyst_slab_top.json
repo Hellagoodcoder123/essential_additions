@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "essential_additions:blocks/amethyst",
+    "top": "essential_additions:blocks/amethyst",
+    "side": "essential_additions:blocks/amethyst"
+  }
+}

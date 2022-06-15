@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "title": {
+      "translate": "advancements.visited_amethyst_geode.title"
+    },
+    "description": {
+      "translate": "advancements.visited_amethyst_geode.descr"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "visited_amethyst_geode": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "essential_additions:animal_genocide"
+}

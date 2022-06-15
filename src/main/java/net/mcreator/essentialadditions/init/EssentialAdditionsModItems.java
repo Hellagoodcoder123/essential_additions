@@ -14,6 +14,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.essentialadditions.item.LiquidAmethystItem;
+import net.mcreator.essentialadditions.item.CrystalCavesItem;
 import net.mcreator.essentialadditions.item.BindingAgentItem;
 import net.mcreator.essentialadditions.item.BindingAgent3Item;
 import net.mcreator.essentialadditions.item.BindingAgent2Item;
@@ -125,6 +127,24 @@ public class EssentialAdditionsModItems {
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> BLACKSTONE_COPPER_ORE = block(EssentialAdditionsModBlocks.BLACKSTONE_COPPER_ORE,
 			CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> LIQUID_AMETHYST_BUCKET = REGISTRY.register("liquid_amethyst_bucket", () -> new LiquidAmethystItem());
+	public static final RegistryObject<Item> CRYSTAL_CAVES = REGISTRY.register("crystal_caves", () -> new CrystalCavesItem());
+	public static final RegistryObject<Item> AMETHYST_STAIRS = block(EssentialAdditionsModBlocks.AMETHYST_STAIRS,
+			EssentialAdditionsModTabs.TAB_THE_CRYSTAL_CAVES);
+	public static final RegistryObject<Item> AMETHYST_SLAB = block(EssentialAdditionsModBlocks.AMETHYST_SLAB,
+			EssentialAdditionsModTabs.TAB_THE_CRYSTAL_CAVES);
+	public static final RegistryObject<Item> AMETHYST_WALL = block(EssentialAdditionsModBlocks.AMETHYST_WALL,
+			EssentialAdditionsModTabs.TAB_THE_CRYSTAL_CAVES);
+	public static final RegistryObject<Item> AMETHYST_BUTTON = block(EssentialAdditionsModBlocks.AMETHYST_BUTTON,
+			EssentialAdditionsModTabs.TAB_THE_CRYSTAL_CAVES);
+	public static final RegistryObject<Item> DIAMOND_STAIRS = block(EssentialAdditionsModBlocks.DIAMOND_STAIRS,
+			EssentialAdditionsModTabs.TAB_THE_CRYSTAL_CAVES);
+	public static final RegistryObject<Item> DIAMOND_SLAB = block(EssentialAdditionsModBlocks.DIAMOND_SLAB,
+			EssentialAdditionsModTabs.TAB_THE_CRYSTAL_CAVES);
+	public static final RegistryObject<Item> DIAMOND_WALL = block(EssentialAdditionsModBlocks.DIAMOND_WALL,
+			EssentialAdditionsModTabs.TAB_THE_CRYSTAL_CAVES);
+	public static final RegistryObject<Item> DIAMOND_BUTTON = block(EssentialAdditionsModBlocks.DIAMOND_BUTTON,
+			EssentialAdditionsModTabs.TAB_THE_CRYSTAL_CAVES);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

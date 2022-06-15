@@ -1,0 +1,7 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "essential_additions:blocks/diamond_block",
+    "particle": "essential_additions:blocks/diamond_block"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "_fv": 28,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:SmallAmethystCaves"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.AMETHYST_BLOCK"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:LiquidAmethyst"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "portalFrame": {
+      "value": "Blocks.AMETHYST_BLOCK"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:CrystalCavesPortalParticle"
+    },
+    "portalLuminance": 15,
+    "portalSound": {
+      "value": "block.amethyst_block.chime"
+    },
+    "igniterName": "Diamond and Amethyst Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:TheCrystalCaves"
+    },
+    "texture": "amethyst_and_diamond_igniter",
+    "portalTexture": "crystal_caves_portal_animation",
+    "enablePortal": true
+  }
+}

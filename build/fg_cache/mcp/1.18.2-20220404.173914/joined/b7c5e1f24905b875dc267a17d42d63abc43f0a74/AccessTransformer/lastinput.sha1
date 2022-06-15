@@ -1,0 +1,6 @@
+args=158a7ed8358fc1745061f3eb7cd876c99d66f464
+jvmargs=da39a3ee5e6b4b0d3255bfef95601890afd80709
+input=add04585b3669b051d8d68ed9cdf59fcbfc0af30
+transformers=af961178f6f8e2a798a3fc19962a9abd81139a75
+jar=4cba12b2b7087c94f754f7fc09a94d931a865182
+/src/main/resources/META-INF/accesstransformer.cfg=b7c5e1f24905b875dc267a17d42d63abc43f0a74

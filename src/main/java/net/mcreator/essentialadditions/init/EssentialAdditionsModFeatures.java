@@ -25,6 +25,7 @@ import net.mcreator.essentialadditions.world.features.ores.NetherCopperOreFeatur
 import net.mcreator.essentialadditions.world.features.ores.GoldBarsFeature;
 import net.mcreator.essentialadditions.world.features.ores.DiamondBarsFeature;
 import net.mcreator.essentialadditions.world.features.ores.BlackstoneCopperOreFeature;
+import net.mcreator.essentialadditions.world.features.Smallamethystcave1Feature;
 import net.mcreator.essentialadditions.EssentialAdditionsMod;
 
 import java.util.function.Supplier;
@@ -56,6 +57,9 @@ public class EssentialAdditionsModFeatures {
 	public static final RegistryObject<Feature<?>> BLACKSTONE_COPPER_ORE = register("blackstone_copper_ore", BlackstoneCopperOreFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, BlackstoneCopperOreFeature.GENERATE_BIOMES,
 					BlackstoneCopperOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> SMALLAMETHYSTCAVE_1 = register("smallamethystcave_1", Smallamethystcave1Feature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, Smallamethystcave1Feature.GENERATE_BIOMES,
+					Smallamethystcave1Feature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
